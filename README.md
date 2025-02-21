@@ -1,4 +1,4 @@
-#github-starting
+# github-starting
 
 Starting with GitHub and IntelliJ
 
