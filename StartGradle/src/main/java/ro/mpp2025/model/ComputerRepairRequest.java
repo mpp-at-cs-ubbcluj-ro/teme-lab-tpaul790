@@ -1,4 +1,4 @@
-package model;
+package ro.mpp2025.model;
 
 import java.io.Serializable;
 

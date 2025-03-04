@@ -1,4 +1,4 @@
-package repository;
+package ro.mpp2025.repository;
 
 import java.util.Collection;
 

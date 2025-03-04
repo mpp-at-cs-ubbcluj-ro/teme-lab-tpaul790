@@ -1,7 +1,9 @@
+package ro.mpp2025;
+
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
-import model.ComputerRepairRequest;
-import repository.RequestRepository;
+import ro.mpp2025.model.ComputerRepairRequest;
+import ro.mpp2025.repository.RequestRepository;
 
 public class ComputerShopMain {
     public static void main(String[] args){

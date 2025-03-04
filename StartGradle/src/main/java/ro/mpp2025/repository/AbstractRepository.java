@@ -1,8 +1,8 @@
-package repository;
+package ro.mpp2025.repository;
 
-import model.Identifiable;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import ro.mpp2025.model.Identifiable;
 
 import java.util.Collection;
 import java.util.HashMap;
