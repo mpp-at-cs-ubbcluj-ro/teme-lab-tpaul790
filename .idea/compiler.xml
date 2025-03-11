@@ -7,6 +7,8 @@
       <module name="Lab1.test" target="22" />
       <module name="Lab3" target="22" />
       <module name="Lab3.main" target="22" />
+      <module name="Lab3.target.main" target="22" />
+      <module name="Lab3.target.test" target="22" />
       <module name="Lab3.test" target="22" />
       <module name="StartGradle" target="22" />
       <module name="StartGradle.main" target="22" />

@@ -18,6 +18,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Lab3" />
+            <option value="$PROJECT_DIR$/Lab3/target" />
           </set>
         </option>
       </GradleProjectSettings>
