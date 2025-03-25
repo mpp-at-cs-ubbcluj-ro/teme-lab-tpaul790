@@ -23,6 +23,29 @@ public class CarRepository implements Repository<Integer, Car> {
         jdbcUtils = new JdbcUtils(properties);
     }
 
+    public List<Car> findByBrand(String brand) {
+        logger.info("Find all cars from a brand");
+        Connection connection = jdbcUtils.getConnection();
+        List<Car> cars = new ArrayList<>();
+        try(PreparedStatement preparedStatement = connection.prepareStatement("select * from Cars where brand = ?")){
+            preparedStatement.setString(1,brand);
+            try(ResultSet resultSet = preparedStatement.executeQuery()){
+                while(resultSet.next()){
+                    int id = resultSet.getInt("id");
+                    String fuel = resultSet.getString("fuel");
+                    int mileage = resultSet.getInt("mileage");
+                    Car car = new Car(brand,fuel,mileage);
+                    car.setId(id);
+                    cars.add(car);
+                }
+            }
+        }catch (SQLException e){
+            logger.error(e);
+            System.out.println("Error DB");
+        }
+        return cars;
+    }
+
     @Override
     public List<Car> findAll() {
         logger.info("Find all cars");
@@ -50,6 +73,24 @@ public class CarRepository implements Repository<Integer, Car> {
 
     @Override
     public Car findOne(Integer integer) {
+        logger.info("Find a car");
+        Connection connection = jdbcUtils.getConnection();
+        try(PreparedStatement preparedStatement = connection.prepareStatement("select * from Cars")){
+            try(ResultSet resultSet = preparedStatement.executeQuery()){
+                if(resultSet.next()){
+                    int id = resultSet.getInt("id");
+                    String fuel = resultSet.getString("fuel");
+                    String brand = resultSet.getString("brand");
+                    int mileage = resultSet.getInt("mileage");
+                    Car car = new Car(brand,fuel,mileage);
+                    car.setId(id);
+                    return car;
+                }
+            }
+        }catch (SQLException e){
+            logger.error(e);
+            System.out.println("Error DB");
+        }
         return null;
     }
 

@@ -62,3 +62,51 @@
 11 Mar 2025 17:04:52,788 INFO  ro.mpp2025.repository.CarRepository 28 findAll - Find all cars
 11 Mar 2025 17:04:52,789 TRACE ro.mpp2025.utils.JdbcUtils 48 getConnection - Enter
 11 Mar 2025 17:04:52,789 TRACE ro.mpp2025.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@34f5090e)
+18 Mar 2025 16:35:18,871 INFO  ro.mpp2025.repository.CarRepository 22 <init> - CarRepository initialized
+18 Mar 2025 16:35:18,877 TRACE ro.mpp2025.repository.CarRepository 100 save - Enter saving tasks Tesla DSL 2012
+18 Mar 2025 16:35:18,877 TRACE ro.mpp2025.utils.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:35:18,877 TRACE ro.mpp2025.utils.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 16:35:18,877 INFO  ro.mpp2025.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/titienipaul/Desktop/GitHub/MPP/teme-lab-tpaul790/cars.db
+18 Mar 2025 16:35:18,878 INFO  ro.mpp2025.utils.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 16:35:18,878 INFO  ro.mpp2025.utils.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 16:35:19,179 TRACE ro.mpp2025.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@34f5090e)
+18 Mar 2025 16:35:19,184 TRACE ro.mpp2025.repository.CarRepository 107 save - Exit saving tasks Tesla DSL 2012
+18 Mar 2025 16:35:19,184 TRACE ro.mpp2025.repository.CarRepository 125 update - Enter updating tasks Tesla DSL 2100
+18 Mar 2025 16:35:19,184 TRACE ro.mpp2025.utils.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:35:19,185 TRACE ro.mpp2025.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@34f5090e)
+18 Mar 2025 16:35:19,185 TRACE ro.mpp2025.repository.CarRepository 133 update - Exit updating tasks Tesla DSL 2100
+18 Mar 2025 16:35:19,185 INFO  ro.mpp2025.repository.CarRepository 51 findAll - Find all cars
+18 Mar 2025 16:35:19,185 TRACE ro.mpp2025.utils.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:35:19,185 TRACE ro.mpp2025.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@34f5090e)
+18 Mar 2025 16:53:19,590 INFO  ro.mpp2025.repository.CarRepository 22 <init> - CarRepository initialized
+18 Mar 2025 16:53:19,595 TRACE ro.mpp2025.repository.CarRepository 100 save - Enter saving tasks Tesla DSL 2012
+18 Mar 2025 16:53:19,595 TRACE ro.mpp2025.utils.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:53:19,596 TRACE ro.mpp2025.utils.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 16:53:19,596 INFO  ro.mpp2025.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/titienipaul/Desktop/GitHub/MPP/teme-lab-tpaul790/cars.db
+18 Mar 2025 16:53:19,596 INFO  ro.mpp2025.utils.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 16:53:19,596 INFO  ro.mpp2025.utils.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 16:53:19,855 TRACE ro.mpp2025.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@15aab8c6)
+18 Mar 2025 16:53:19,862 TRACE ro.mpp2025.repository.CarRepository 107 save - Exit saving tasks Tesla DSL 2012
+18 Mar 2025 16:53:19,863 TRACE ro.mpp2025.repository.CarRepository 125 update - Enter updating tasks Tesla DSL 2100
+18 Mar 2025 16:53:19,863 TRACE ro.mpp2025.utils.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:53:19,863 TRACE ro.mpp2025.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@15aab8c6)
+18 Mar 2025 16:53:19,863 TRACE ro.mpp2025.repository.CarRepository 133 update - Exit updating tasks Tesla DSL 2100
+18 Mar 2025 16:53:19,864 INFO  ro.mpp2025.repository.CarRepository 51 findAll - Find all cars
+18 Mar 2025 16:53:19,864 TRACE ro.mpp2025.utils.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:53:19,864 TRACE ro.mpp2025.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@15aab8c6)
+18 Mar 2025 16:54:40,222 INFO  ro.mpp2025.repository.CarRepository 22 <init> - CarRepository initialized
+18 Mar 2025 16:54:40,226 TRACE ro.mpp2025.repository.CarRepository 100 save - Enter saving tasks Tesla DSL 2012
+18 Mar 2025 16:54:40,226 TRACE ro.mpp2025.utils.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:54:40,226 TRACE ro.mpp2025.utils.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 16:54:40,227 INFO  ro.mpp2025.utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:/Users/titienipaul/Desktop/GitHub/MPP/teme-lab-tpaul790/cars.db
+18 Mar 2025 16:54:40,227 INFO  ro.mpp2025.utils.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 16:54:40,227 INFO  ro.mpp2025.utils.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 16:54:40,519 TRACE ro.mpp2025.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@15aab8c6)
+18 Mar 2025 16:54:40,525 TRACE ro.mpp2025.repository.CarRepository 107 save - Exit saving tasks Tesla DSL 2012
+18 Mar 2025 16:54:40,526 TRACE ro.mpp2025.repository.CarRepository 125 update - Enter updating tasks Tesla DSL 2100
+18 Mar 2025 16:54:40,526 TRACE ro.mpp2025.utils.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:54:40,526 TRACE ro.mpp2025.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@15aab8c6)
+18 Mar 2025 16:54:40,526 TRACE ro.mpp2025.repository.CarRepository 133 update - Exit updating tasks Tesla DSL 2100
+18 Mar 2025 16:54:40,526 INFO  ro.mpp2025.repository.CarRepository 51 findAll - Find all cars
+18 Mar 2025 16:54:40,527 TRACE ro.mpp2025.utils.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:54:40,527 TRACE ro.mpp2025.utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@15aab8c6)
